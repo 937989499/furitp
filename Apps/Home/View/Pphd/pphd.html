@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>品牌活动</title>
+</head>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css">
+<link href="__PUBLIC__/css/fenye.css" rel="stylesheet" type="text/css"/>
+<body>
+	<include file="Apps/Home/View/indexhead.html" />
+    <div class="fid">
+    	<div class="fid_left">
+        	<div class="sub_nav">
+            	<ul>
+              <if condition="(isset($type) AND ($type neq ''))">
+                <if condition="$type eq 9">
+                    <li ><a class="last" href="{:U("Pphd/index")}?hid=8">公司新闻</a></li>
+                    <li ><a class="counent" href="{:U("Pphd/index")}?hid=9">品牌活动</a></li>
+                </if>
+                <if condition="($type elt 8) OR ($type gt 9)">
+                    <li><a  class="counent" href="{:U("Pphd/index")}?hid=8">公司新闻</a></li>
+                    <li><a  class="last" href="{:U("Pphd/index")}?hid=9">品牌活动</a></li>
+                </if>
+              </if>
+            	</ul>
+            </div>
+		</div>
+         <!-- 以下部分为可修改部分 -->
+        <div class="fid_right">
+    			<p><img src="__PUBLIC__/img/activities_top.jpg" alt="品牌活动"/></p>
+    			<p class="fid_rightimg"><a href="index.html"><img src="__PUBLIC__/img/home.jpg" alt="HOME"/></a>><a href="#">新闻中心</a>>
+          <if condition="$type eq 9">品牌活动</if><if condition="($type elt 8) OR ($type gt 9)">公司新闻</if>
+          </p>
+    			<div class="fid_rightnews">
+              <h1> <if condition="$type eq 9">品牌活动</if><if condition="($type elt 8) OR ($type gt 9)">公司新闻</if></h1>
+                <div class="fid_newslist">
+                	<ul>
+                      <if condition="empty($type)">
+                        无搜索内容
+                      <else /> 
+                        <volist name="pphd" id="pphds">
+                            <li class="fnlstli"><p class="news_left"><a href="#"><img src="{$pphds.imgurl}" alt="" width="160" height="100" /></a></p>
+                              <div class="news_right">
+                                <p class="news_title">{$pphds.title}</p>
+                                <p>{$pphds.adddatetime}</p>
+                                <p>{$pphds.contents}</p>
+                              </div>
+                            </li>
+                        </volist>
+                      </if>
+                	</ul>
+                </div>
+      <table style="width: 730px;text-align: center;">
+      <tr class="content">
+        <!--<td colspan="3" bgcolor="#FFFFFF"> {$page}</td>-->
+        <td  bgcolor="#FFFFFF"><div class="pages">
+            {$page}
+        </div></td> 
+      </tr>
+      </table>
+          </div> 
+	   </div>
+     </div>
+	<include file="Apps/Home/View/indexfooter.html" />
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+</body>
+</html>

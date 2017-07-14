@@ -1,0 +1,40 @@
+[ 2017-05-14T20:25:04+08:00 ] ::1 /furitp/admin.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2017-05-14T20:25:14+08:00 ] ::1 /furitp/admin.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `fu_admin` [ RunTime:0.1053s ]
+SQL: SELECT `AdminId`,`AdminPwd` FROM `fu_admin` WHERE ( adminid ='admin' and adminpwd = '12345678' )  [ RunTime:0.0004s ]
+
+[ 2017-05-14T20:26:01+08:00 ] ::1 /furitp/admin.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `fu_admin` [ RunTime:0.0014s ]
+SQL: SELECT `AdminId`,`AdminPwd` FROM `fu_admin` WHERE ( adminid ='admin' and adminpwd = '12345678' )  [ RunTime:0.0003s ]
+

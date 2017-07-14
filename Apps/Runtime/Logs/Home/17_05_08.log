@@ -1,0 +1,535 @@
+[ 2017-05-08T11:35:45+08:00 ] ::1 /furitp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+ERR: 非法操作:css
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+ERR: 非法操作:js
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/main_list_2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002041s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/btnsearch.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/20131218160232123.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/main_list_3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/main_list_1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/20131218160305936.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/20131218160255920.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/201701231006104441.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/main_r_jy.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/201702090945557288.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-05-08T11:42:08+08:00 ] ::1 /furitp/index.php/Home/User/img/main_r_fr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-05-08T11:45:05+08:00 ] ::1 /furitp/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-05-08T11:45:05+08:00 ] ::1 /furitp/index.php/Home/User/img/btnsearch.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-05-08T11:45:26+08:00 ] ::1 /furitp/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2017-05-08T11:45:27+08:00 ] ::1 /furitp/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-05-08T12:00:45+08:00 ] ::1 /furitp/index.php/Home/User/admin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+ERR: 非法操作:admin
+
+[ 2017-05-08T18:41:51+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+ERR: 非法操作:login
+
+[ 2017-05-08T18:42:08+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2017-05-08T18:42:11+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/fenye/gsgk.php?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+ERR: 非法操作:fenye
+
+[ 2017-05-08T18:42:38+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [2] require(../head.php): failed to open stream: No such file or directory D:\AppServ\www\furitp\Apps\Runtime\Cache\Home\876f86a7ddb07f199432630a1ddb8345.php 第 10 行.
+
+[ 2017-05-08T18:45:15+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [2] require(./head.php): failed to open stream: No such file or directory D:\AppServ\www\furitp\Apps\Runtime\Cache\Home\876f86a7ddb07f199432630a1ddb8345.php 第 10 行.
+
+[ 2017-05-08T18:45:16+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [2] require(./head.php): failed to open stream: No such file or directory D:\AppServ\www\furitp\Apps\Runtime\Cache\Home\876f86a7ddb07f199432630a1ddb8345.php 第 10 行.
+
+[ 2017-05-08T18:45:36+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [2] require(head.php): failed to open stream: No such file or directory D:\AppServ\www\furitp\Apps\Runtime\Cache\Home\876f86a7ddb07f199432630a1ddb8345.php 第 10 行.
+
+[ 2017-05-08T18:59:57+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: p line 45 and tpl D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 44 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 3 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 2 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tag line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tpl line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2017-05-08T19:00:26+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: p line 45 and tpl D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 44 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 3 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 2 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tag line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tpl line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2017-05-08T19:00:48+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: p line 45 and tpl D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 44 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 3 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 2 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tag line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tpl line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2017-05-08T19:01:00+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: p line 45 and tpl D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 44 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 3 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 2 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tag line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tpl line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2017-05-08T19:01:01+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: p line 45 and tpl D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 44 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 3 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 2 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tag line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tpl line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2017-05-08T19:01:03+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: p line 45 and tpl D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 44 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 3 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 2 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tag line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tpl line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2017-05-08T19:01:50+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: p line 45 and tpl D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 44 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 3 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 2 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tag line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tpl line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2017-05-08T19:01:51+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/gsgk/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Opening and ending tag mismatch: p line 45 and tpl D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 44 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 3 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag div line 2 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tag line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 45: parser error : Premature end of data in tag tpl line 1 D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): 1081644346895.jpg&quot; alt=&quot;公司新闻&quot; style=&quot;width:217px;height:105px;&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                                                ^ D:\AppServ\www\furitp\ThinkPHP\Library\Think\Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2017-05-08T19:01:52+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+ERR: 非法操作:login
+
+[ 2017-05-08T19:02:01+08:00 ] 127.0.0.1 /furitp/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+

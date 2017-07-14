@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>分类管理</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/editshow.css">
+<style>	
+#catename{
+	width: 300px;
+    height: 20%;
+    margin-top: 6%;
+}
+#pid{
+	width: 300px;
+	height: 20%;
+	margin-top: 3%;
+}
+</style>
+<script type="text/javascript">
+	function chakong(){
+		var catename = document.getElementById('catename').value;
+		var pid = document.getElementById('pid').value;
+		if(catename==''){
+			alert('请填写分类名称！');
+			return false;
+		}
+		if(pid==''){
+			alert('请填写PId！');
+			return false;
+		}
+	}
+</script>
+</head>
+<body>
+<div class="as_top" style="width:100%;height:30px;">
+	<a href="{:U("Cate/index")}">返回列表</a>
+</div>
+<div style="width:100%;height:200px;">
+	<form class="as_form" action="cateadd.php" method="post" onsubmit="return chakong()" >
+		<input type="text" placeholder="分类名称" name="catename" id="catename"/><br/>
+		<input type="text" placeholder="pid" name="pid" id="pid" /><br/>
+		<input type="submit" placeholder="提交" style="margin-top: 10px;width: 100px;height: 30px;" />
+	</form>
+</div>
+</body>
+</html>

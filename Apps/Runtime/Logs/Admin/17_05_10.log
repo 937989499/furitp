@@ -1,0 +1,272 @@
+[ 2017-05-10T07:55:20+08:00 ] ::1 /furitp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-10T07:58:07+08:00 ] ::1 /furitp/admin.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-10T07:58:34+08:00 ] ::1 /furitp/admin.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fu_admin` [ RunTime:0.0000s ]
+SQL: SELECT `AdminId`,`AdminPwd` FROM `fu_admin` WHERE ( adminid ='admin' and adminpwd = '12345678' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: AdminId D:\AppServ\www\furitp\Apps\Admin\Controller\UserController.class.php 第 29 行.
+
+[ 2017-05-10T07:58:34+08:00 ] ::1 /furitp/admin.php/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-10T07:58:34+08:00 ] ::1 /furitp/admin.php/Book/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-10T07:58:35+08:00 ] ::1 /furitp/admin.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fu_admin` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fu_admin` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `Id`,`AdminId`,`AdminPwd`,`UserName`,`Phone` FROM `fu_admin` WHERE ( 1=1 ) ORDER BY id LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-10T07:58:37+08:00 ] ::1 /furitp/admin.php/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fu_img` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `fu_img`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8eacdefd52968534534e1817fc1f6aea.php 第 33 行.
+NOTIC: [8] Undefined variable: allpage D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8eacdefd52968534534e1817fc1f6aea.php 第 33 行.
+NOTIC: [8] Undefined variable: p D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8eacdefd52968534534e1817fc1f6aea.php 第 34 行.
+NOTIC: [8] Undefined variable: p D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8eacdefd52968534534e1817fc1f6aea.php 第 36 行.
+NOTIC: [8] Undefined variable: allpage D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8eacdefd52968534534e1817fc1f6aea.php 第 37 行.
+NOTIC: [8] Undefined variable: p D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8eacdefd52968534534e1817fc1f6aea.php 第 37 行.
+NOTIC: [8] Undefined variable: allpage D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8eacdefd52968534534e1817fc1f6aea.php 第 37 行.
+NOTIC: [8] Undefined variable: allpage D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8eacdefd52968534534e1817fc1f6aea.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-10T07:58:38+08:00 ] ::1 /furitp/admin.php/Cate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fu_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `fu_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8d1ec7a67d0da17990b8921e73b54f69.php 第 33 行.
+NOTIC: [8] Undefined variable: allpage D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8d1ec7a67d0da17990b8921e73b54f69.php 第 33 行.
+NOTIC: [8] Undefined variable: p D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8d1ec7a67d0da17990b8921e73b54f69.php 第 34 行.
+NOTIC: [8] Undefined variable: p D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8d1ec7a67d0da17990b8921e73b54f69.php 第 36 行.
+NOTIC: [8] Undefined variable: allpage D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8d1ec7a67d0da17990b8921e73b54f69.php 第 37 行.
+NOTIC: [8] Undefined variable: p D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8d1ec7a67d0da17990b8921e73b54f69.php 第 37 行.
+NOTIC: [8] Undefined variable: allpage D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8d1ec7a67d0da17990b8921e73b54f69.php 第 37 行.
+NOTIC: [8] Undefined variable: allpage D:\AppServ\www\furitp\Apps\Runtime\Cache\Admin\8d1ec7a67d0da17990b8921e73b54f69.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-10T07:58:39+08:00 ] ::1 /furitp/admin.php/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fu_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fu_article` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `Id`,`Title`,`Contents`,`ImgUrl`,`Author`,`AddDateTime`,`UpdateDateTime`,`CateId` FROM `fu_article` WHERE ( 1=1 ) ORDER BY id LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-10T07:58:40+08:00 ] ::1 /furitp/admin.php/Sys/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Sys
+
+[ 2017-05-10T07:58:41+08:00 ] ::1 /furitp/admin.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fu_admin` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fu_admin` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `Id`,`AdminId`,`AdminPwd`,`UserName`,`Phone` FROM `fu_admin` WHERE ( 1=1 ) ORDER BY id LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-10T07:58:42+08:00 ] ::1 /furitp/admin.php/Admin/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fu_admin` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fu_admin` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `Id`,`AdminId`,`AdminPwd`,`UserName`,`Phone` FROM `fu_admin` WHERE ( 1=1 ) ORDER BY id LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-10T07:58:43+08:00 ] ::1 /furitp/admin.php/Admin/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fu_admin` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fu_admin` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `Id`,`AdminId`,`AdminPwd`,`UserName`,`Phone` FROM `fu_admin` WHERE ( 1=1 ) ORDER BY id LIMIT 2,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

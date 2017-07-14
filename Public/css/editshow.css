@@ -1,0 +1,24 @@
+.as_top{
+	width: 100%;
+    background: #e5e5e5;
+    height: 30px;
+}
+.as_top a{
+	text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.as_form{
+	padding-left: 15px;
+    border: 1px solid #e5e5e5;
+    width: 318px;
+}
+.as_form input{
+	width: 300px;
+	height: 20%;
+	margin-top: 3%;
+}
+a.hover,a.link,a.active,a.visited{
+  color: black;
+}

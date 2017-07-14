@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.fid{
+	width:1000px;
+	padding-top: 40px;
+	margin:0 auto;
+	}
+.fid_left{float:left; width:217px;  margin:0 auto; padding:0px; overflow:hidden;}
+.fid_right{float:right; width:759px; margin:0 auto; padding:0px; overflow:hidden;}
+.sub_nav{ clear:both; padding:6px 4px; border-top:3px solid #e91929; margin:0 auto 70px; overflow:hidden;}
+.sub_nav ul li{ font-size:15px; height:30px; line-height:30px; border-bottom:1px dashed #a7a7a7; margin:0 auto; padding:0 6px 0 16px; text-align:left; overflow:hidden;}
+.sub_nav ul li a.last{ border-bottom:none; _width:187px; }
+.sub_nav ul li a{color:#3e3a39; display:block; background: url(../img/sub_nav_bg_off.jpg) no-repeat right center; }
+.sub_nav ul li a:link, .sub_nav ul li a:visited{text-decoration:none;color:#3e3a39; background:url(../img/sub_nav_bg_off.jpg) no-repeat right center;}
+.sub_nav ul li a:hover, .sub_nav ul li a:active, .sub_nav ul li a:focus{text-decoration:none;color:#e91929; background:url(../img/sub_nav_bg.jpg) no-repeat right center;}
+.sub_nav ul li a.counent{color:#e91929; background:url(../img/sub_nav_bg.jpg) no-repeat right center;}
+.sub_news{clear:both; border-bottom:2px solid #c8a063; border-top:2px solid #c8a063; padding:9px 0; margin:0 auto; text-align:left; overflow:hidden;}
+.sub_newsdiv{width:217px;font-size:12px;}
+.fid_right p img{margin-top: -20px;}
+.fid_rightimg{border-bottom: 1px dashed;font-size: 14px;padding: 2px 0px 5px 0px;}
+/*.fid_rightgai{}*/
+
+.fid_newslist{ clear:both; width:730px; margin:0 auto; padding:0; overflow:hidden;}
+.fnlstli{clear:both; border-bottom:1px dashed #3e3a39; margin:0 auto 20px; padding:0 0 26px 0; }
+.fnlstli p.none{ display:none;}
+.fid_rightnews h1{ font-weight:normal; font-size:20px; line-height:40px; margin:0 auto 8px;}
+.news_left{ float:left;  padding:0; width:160px; }
+.news_left img{ display:block; width:160px; height:100px;}
+.news_right{ width: 550px;font-size: 12px;margin-left: 180px;}
+.news_title{ font-size:15px; }
+
+.pages a,.pages span {
+  display:inline-block;
+  padding:2px 5px;
+  margin:0 1px;
+  border:1px solid #f0f0f0;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+}
+.pages a,.pages li {
+  display:inline-block;
+  list-style: none;
+  text-decoration:none; 
+  color:#58A0D3;
+}
+.pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+  margin:0;
+}
+.pages a:hover{
+  border-color:#50A8E6;
+}
+.pages span.current{
+  background:#50A8E6;
+  color:#FFF;
+  font-weight:700;
+  border-color:#50A8E6;
+} 

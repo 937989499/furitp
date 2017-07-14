@@ -1,0 +1,32 @@
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>图片管理</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css">
+</head>
+<body>
+<div style="width:100%;height:30px;" class="as_top">
+	<a href="__URL__/imgaddshow.html">新增</a>
+</div>
+	<table>
+		<tr><td>序号</td><td>标题</td><td>图片地址</td><td>操作</td></tr>
+		<volist name="imglist" id="img" mod="2">
+		<eq name="mod" value="1">
+			<tr style="color:#333333;background-color:#F7F6F3;">
+		</eq>
+		<eq name="mod" value="2">
+			<tr style="color:#284775;background-color:white;">
+		</eq>
+		<td>{$img.id}</td><td>{$img.title}</td><td>{$img.url}</td><td><a href="">编辑</a><a href="">删除</a></td></tr>
+		</volist>
+	</table>
+	 <table>
+<tr class="content">
+        <!--<td colspan="3" bgcolor="#FFFFFF"> {$page}</td>-->
+        <td colspan="4" bgcolor="#FFFFFF"><div class="pages">
+            {$page}
+        </div></td> 
+      </tr>
+</body>
+</html>

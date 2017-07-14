@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>账户管理</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/editshow.css">
+</head>
+<body>
+<div style="width:100%;height:30px;" class="as_top">
+	<a href="{:U("Admin/index")}">列表</a>
+</div>
+
+<div style="width:100%;height:200px;" class="as_form">
+	<form action="__URL__/adminupdate/aid/{$data['id']}" method="post" >
+		<input type="hidden"  value="{$data['id']}" name="aid" />
+		<input type="text" placeholder="账号" value="{$data['adminid']}" name="uid" />
+		<input type="text" placeholder="姓名" value="{$data['username']}" name="uname" />
+		<input type="text" placeholder="电话" value="{$data['phone']}" name="uphone" />
+		<input type="submit" placeholder="保存" />
+	</form>
+</div>
+</body>
+</html>
